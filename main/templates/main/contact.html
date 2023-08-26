@@ -11,7 +11,7 @@
     <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/jumbotron/">
 
     <!-- Bootstrap core CSS -->
-    <link href="bootstrap.min.css" rel="stylesheet">
+    <link href="/static/bootstrap.min.css" rel="stylesheet">
 
 </head>
 
@@ -62,7 +62,7 @@
                         Feedback form
                     </div>
                     <div class="card-body">
-                        <form method="post">
+                        <form method="POST">
                             {% csrf_token %}
                             <input name="name" class="form-control mb-2" placeholder="Name" type="text">
                             <input name="email" class="form-control mb-2" placeholder="Email" type="email">
